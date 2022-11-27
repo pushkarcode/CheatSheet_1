@@ -1,56 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-nav{
+
+nav {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#272822;
+    background-color: #272822;
     color: red;
     height: 71px;
-    position: fixed ;
+    position: fixed;
     top: 0;
     width: 100%;
-
 }
-.content{
+
+.content {
     font-family: 'Potta One', cursive;
     font-size: 20px;
     /* font-family: 'Creepster', cursive; */
 }
-.container{
-    background-color:aliceblue;
+
+.container {
     color: red;
     width: 50vw;
     padding: 89px 0;
     margin: 8px 429px;
     font-family: 'Creepster', cursive;
     font-size: 20px;
-    overflow: hidden;
 }
-.container ol li b{
+
+.container ol li b {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    color: #272822;
 }
-.logo{
- padding: 0 13px 0;
-}
-.logo img{
+
+.logo img {
+    padding: 0 7px 0;
     width: 32px;
 }
-.toolbar-item button{
+
+.toolbar-item button {
     cursor: pointer !important;
     border: 1px solid red !important;
     border-radius: 15px !important;
     padding: 5px 14px !important;
-    margin: 0px 695px !important
+    margin: 0px 695px !important;
     position: inherit !important;
 }
-.toolbar{
+
+.toolbar {
     top: -3.2em !important;
-   right: -34.8em !important;
+    right: -34.8em !important;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

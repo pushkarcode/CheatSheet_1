@@ -31,6 +31,7 @@ nav {
     margin: 8px 429px;
     font-family: 'Creepster', cursive;
     font-size: 20px;
+    overflow: clip !important;
 }
 
 .container ol li b {
